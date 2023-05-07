@@ -169,7 +169,7 @@ if (CATKIN_ENABLE_TESTING)
   endforeach()
 endif()
 
-install(DIRECTORY launch urdf configuration_files
+install(DIRECTORY launch urdf configuration_files map
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
